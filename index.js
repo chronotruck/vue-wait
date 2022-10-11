@@ -8,10 +8,5 @@
 	else
 		root["VueWait"] = factory(root["vue"]);
 })(typeof self !== 'undefined' ? self : this, function(vue) {
-  if (vue.createApp) {
-    const v3 = require('./dist/vue-wait-next');
-    return v3
-  }
-  const v2 = require('./dist/vue-wait-v2');
-  return v2
+  return require('./dist/vue-wait');
 })

@@ -1,6 +1,6 @@
 module.exports = env => {
   const isV3 = !!env.v3
-  const loaderName = `vue-loader${isV3 ? '': '-old'}`;
+  const loaderName = "vue-loader";
   const { VueLoaderPlugin } = require(loaderName);
 
   return {
@@ -10,7 +10,7 @@ module.exports = env => {
       library: "VueWait",
       libraryTarget: "umd",
       globalObject: 'typeof self !== \'undefined\' ? self : this',
-      filename: `vue-wait${isV3 ? '-next': '-v2'}.js`
+      filename: `vue-wait.js`
     },
     externals: { vue: 'vue' },
     module: {
