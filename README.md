@@ -17,7 +17,7 @@
 
 > [Play with demo above](https://f.github.io/vue-wait/).
 
-Fork of VueWait for Vue 3 compatibility. **vue-wait** helps to manage multiple loading states on the page without any conflict. It's based on a **very simple idea** that manages an array (or Vuex store optionally) with multiple loading states. The **built-in loader component** listens its registered loader and immediately become loading state.
+Fork of VueWait for Vue 3 compatibility. Test. **vue-wait** helps to manage multiple loading states on the page without any conflict. It's based on a **very simple idea** that manages an array (or Vuex store optionally) with multiple loading states. The **built-in loader component** listens its registered loader and immediately become loading state.
 
 # ⏩Quick Start
 
