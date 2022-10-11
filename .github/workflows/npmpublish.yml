@@ -29,6 +29,5 @@ jobs:
           node-version: 12
           registry-url: https://registry.npmjs.org/
       - run: yarn publish
-        if: github.event == 'push'
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
